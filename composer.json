@@ -1,5 +1,6 @@
 {
     "name": "utopia-php/queue",
+    "version": "0.7.x-dev",
     "description": "A powerful task queue.",
     "type": "library",
     "keywords": ["php","framework", "upf", "utopia", "tasks", "queue"],
@@ -24,9 +25,9 @@
         "lint": "vendor/bin/pint --test"
     },
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.0",
         "utopia-php/cli": "0.15.*",
-        "utopia-php/framework": "0.*.*",
+        "utopia-php/framework": "0.33.*",
         "utopia-php/telemetry": "0.1.*"
     },
     "require-dev": {
